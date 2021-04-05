@@ -1,5 +1,8 @@
 .header{
     position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
 
     &__inner{
         position: relative;
