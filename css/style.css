@@ -1,3 +1,7 @@
+.text-s {
+  font-size: 14px;
+  font-weight: 300; }
+
 * {
   box-sizing: border-box; }
 
@@ -8,8 +12,15 @@ body {
   line-height: 1.6; }
 
 p {
-  margin: 0;
+  margin: 0 0 10px;
   -webkit-font-smoothing: antialiased; }
+
+.btn-group-vertical > .btn-group:after, .btn-toolbar:after, .clearfix:after, .container-fluid:after, .container:after, .dl-horizontal dd:after, .form-horizontal .form-group:after, .modal-footer:after, .modal-header:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
+  clear: both; }
+
+.btn-group-vertical > .btn-group:after, .btn-group-vertical > .btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+  display: table;
+  content: " "; }
 
 .row {
   margin-left: -15px;
@@ -60,6 +71,48 @@ p {
     font-size: 14px;
     letter-spacing: 2.5px;
     font-weight: 300; }
+
+.conversion {
+  padding: 30px;
+  background-color: #EBB94D;
+  color: #fff;
+  text-align: center;
+  font-weight: 600; }
+  .conversion--focus code {
+    background-color: #fff;
+    color: #C7264E; }
+  .conversion__main-text {
+    max-width: 1028px;
+    margin: 45px auto;
+    padding: 30px 120px;
+    background-color: #da6b64;
+    border-radius: 50px; }
+    .conversion__main-text:hover {
+      background-color: #D84940; }
+    .conversion__main-text p {
+      font-size: 28px; }
+  .conversion .list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none; }
+    .conversion .list-inline li {
+      display: inline-block;
+      vertical-align: bottom;
+      padding-right: 5px;
+      padding-left: 5px; }
+  .conversion .tw-btn {
+    position: relative;
+    width: 75px;
+    height: 22px; }
+  .conversion .fb_iframe_widget {
+    display: inline-block;
+    position: relative; }
+    .conversion .fb_iframe_widget span {
+      display: inline-block;
+      position: relative;
+      text-align: justify; }
+    .conversion .fb_iframe_widget iframe {
+      position: absolute; }
 
 .container-fluid {
   padding-right: 15px;
