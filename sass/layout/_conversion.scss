@@ -1,0 +1,71 @@
+.conversion{
+    padding: 30px;
+    background-color: #EBB94D;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+
+    &--focus{
+        
+        code{
+            background-color: #fff;
+            color: #C7264E;
+        }
+    }
+    
+    &__main-text{
+        max-width: 1028px;
+        margin: 45px auto;
+        padding: 30px 120px;
+        background-color: #da6b64;
+        border-radius: 50px;
+
+        &:hover{
+            background-color: #D84940;
+        }
+
+        p{
+            font-size: 28px;
+        }
+
+        
+    }
+
+    .list-inline{
+        padding-left: 0;
+        margin-left: -5px;
+        list-style: none;
+
+        li{
+            display: inline-block;
+            vertical-align: bottom;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+    }
+
+    .tw-btn{
+        position: relative;
+        width: 75px;
+        height: 22px;
+    }
+
+    // iframe.twitter-share-button {
+    //     margin-bottom: -5px;
+    // }
+
+    .fb_iframe_widget {
+        display: inline-block;
+        position: relative;
+
+        span {
+            display: inline-block;
+            position: relative;
+            text-align: justify;
+        }
+
+        iframe {
+            position: absolute;
+        }
+    }
+}
