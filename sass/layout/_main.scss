@@ -1,0 +1,53 @@
+.container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main{
+    padding-top: 75px;
+
+    &__cover-img{
+        height: 500px;
+        display: table;
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+        background-image: url(../img/main.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__cover-text{
+        height: 500px;
+        display: table-cell;
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+
+        &--top{
+            margin-bottom: 10px;
+            font-size: 28px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        &--bottom{
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+
+            span{
+                display: block;
+            }
+        }
+    }
+    
+
+    &__logo{
+        width: 317px;
+    }
+}
