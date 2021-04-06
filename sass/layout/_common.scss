@@ -1,0 +1,36 @@
+.section{
+    padding-TOP: 40PX;
+
+    &__title{
+        position: relative;
+        max-width: 860px;
+        margin: 0 auto 50px;
+        padding: 30px 60px;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        color: #333;
+
+        &:before, &:after{
+            content:'';
+            width: 45px;
+            height: 45px;
+            position: absolute;
+            display: inline-block;
+        }
+
+        &:before {
+            border-left: #EBB94D solid 4px;
+            border-top: #EBB94D solid 4px;
+            top: 0;
+            left: 0;
+        }
+        &:after {
+            border-right: #EBB94D solid 4px;
+            border-bottom: #EBB94D solid 4px;
+            right: 0;
+            bottom: 0;
+        }
+        
+    }
+}
