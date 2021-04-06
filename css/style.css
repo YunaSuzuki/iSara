@@ -38,6 +38,48 @@ p {
 .col-xs-12 {
   width: 100%; }
 
+.introduction {
+  height: 590px;
+  padding: 40px 0;
+  background-image: url(../img/introbottom.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .introduction__title {
+    position: relative;
+    max-width: 860px;
+    margin: 0 auto 50px;
+    padding: 30px 60px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333; }
+    .introduction__title:before, .introduction__title:after {
+      content: '';
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      display: inline-block; }
+    .introduction__title:before {
+      border-left: #EBB94D solid 4px;
+      border-top: #EBB94D solid 4px;
+      top: 0;
+      left: 0; }
+    .introduction__title:after {
+      border-right: #EBB94D solid 4px;
+      border-bottom: #EBB94D solid 4px;
+      right: 0;
+      bottom: 0; }
+  .introduction__detail:not(:last-child) {
+    margin-bottom: 20px; }
+  .introduction__detail p {
+    margin-bottom: 0;
+    text-align: center;
+    color: #333; }
+    .introduction__detail p span {
+      background: linear-gradient(transparent 60%, #EBB94D 60%);
+      font-weight: 600; }
+
 .header {
   position: fixed;
   width: 100%;
