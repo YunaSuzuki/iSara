@@ -2,6 +2,14 @@
   font-size: 14px;
   font-weight: 300; }
 
+.text-m {
+  font-size: 20px;
+  font-weight: 600; }
+
+.text-l {
+  font-size: 28px;
+  font-weight: 600; }
+
 * {
   box-sizing: border-box; }
 
@@ -94,6 +102,47 @@ ul {
           display: block;
           margin: 10px 0;
           font-size: 10px; }
+
+.aboutsecond {
+  padding: 60px 0 30px;
+  background-image: url(../img/aboutsecondbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .aboutsecond p {
+    color: #fff;
+    text-align: center; }
+    .aboutsecond p span {
+      color: #EBB94D; }
+  .aboutsecond .step-wrap {
+    margin: 40px auto 0;
+    max-width: 1170px;
+    width: calc(100% - 40px); }
+  .aboutsecond .step {
+    display: inline-block;
+    background-color: #fff;
+    width: calc((100% - 40px) / 3);
+    border-radius: 5px; }
+    .aboutsecond .step:not(:last-child) {
+      margin-right: 10px; }
+    .aboutsecond .step__number {
+      display: block;
+      margin: 30px auto 0;
+      width: 85%;
+      background-color: #EBB94D;
+      color: #fff;
+      border-radius: 4px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 16px; }
+    .aboutsecond .step__title, .aboutsecond .step__detail {
+      color: #000;
+      font-weight: 600;
+      font-size: 16px; }
+    .aboutsecond .step__title {
+      margin-top: 30px; }
+    .aboutsecond .step__detail {
+      margin: 20px 0 40px; }
 
 .introduction {
   height: 590px;

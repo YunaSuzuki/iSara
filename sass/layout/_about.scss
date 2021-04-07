@@ -70,3 +70,64 @@
         }
     }
 }
+
+.aboutsecond{
+    padding: 60px 0 30px;
+    background-image: url(../img/aboutsecondbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    p{
+        color: #fff;
+        text-align: center;
+
+        span{
+            color: #EBB94D;
+        }
+    }
+
+    .step-wrap{
+        margin: 40px auto 0;
+        max-width: 1170px;
+        width: calc(100% - 40px);
+    }
+
+    .step{
+        display: inline-block;
+        background-color: #fff;
+        width: calc((100% - 40px) / 3);
+        border-radius: 5px;
+
+        &:not(:last-child){
+            margin-right: 10px;
+        }
+
+        &__number{
+            display: block;
+            margin: 30px auto 0;
+            width: 85%;
+            background-color: #EBB94D;
+            color: #fff;
+            border-radius: 4px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        &__title, &__detail{
+            
+            color: #000;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        &__title{
+            margin-top: 30px;
+        }
+
+        &__detail{
+            margin: 20px 0 40px;
+        }
+    }
+}
