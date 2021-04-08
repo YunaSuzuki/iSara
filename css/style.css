@@ -154,6 +154,20 @@ ul {
     .aboutthird p span {
       color: #EBB94D; }
 
+.learning {
+  padding-top: 20px; }
+  .learning p {
+    margin: 40px 0;
+    text-align: center; }
+  .learning .learning-wrap {
+    text-align: center; }
+    .learning .learning-wrap img {
+      height: 180px; }
+      .learning .learning-wrap img:not(:last-child) {
+        margin-right: 40px; }
+  .learning p.text-s {
+    font-weight: 600; }
+
 .introduction {
   height: 590px;
   padding: 40px 0;

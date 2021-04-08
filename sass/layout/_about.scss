@@ -146,3 +146,29 @@
         }
     }
 }
+
+.learning{
+    padding-top: 20px;
+    
+
+    p{
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    .learning-wrap{
+        text-align: center;
+
+        img{
+            height: 180px;
+    
+            &:not(:last-child){
+                margin-right: 40px;
+            }
+        }
+    } 
+
+    p.text-s{
+        font-weight: 600;
+    }
+}
