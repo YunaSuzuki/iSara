@@ -10,6 +10,12 @@
   font-size: 28px;
   font-weight: 600; }
 
+.yellow-text {
+  color: #EBB94D; }
+
+.bold {
+  font-weight: 600; }
+
 * {
   box-sizing: border-box; }
 
@@ -167,6 +173,38 @@ ul {
         margin-right: 40px; }
   .learning p.text-s {
     font-weight: 600; }
+
+.merit {
+  padding: 40px 0;
+  background-color: #FDF5E0;
+  text-align: center; }
+  .merit .wrap {
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    width: calc(100% - 40px);
+    margin: 0 auto; }
+    .merit .wrap .box {
+      width: 360px; }
+      .merit .wrap .box img {
+        width: 100%; }
+      .merit .wrap .box__title {
+        margin: 8px 0;
+        color: #EEBF5D; }
+      .merit .wrap .box__detail {
+        font-size: 16px;
+        font-weight: normal;
+        color: #333; }
+      .merit .wrap .box:not(:last-child) {
+        margin-right: 30px; }
+  .merit .white-bg-container {
+    margin: 40px auto;
+    padding: 30px 0;
+    max-width: 1170px;
+    background-color: #fff;
+    border: #EBB94D 2px solid;
+    border-radius: 3px;
+    text-align: center; }
 
 .introduction {
   height: 590px;

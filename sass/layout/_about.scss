@@ -172,3 +172,51 @@
         font-weight: 600;
     }
 }
+
+.merit{
+    padding: 40px 0;
+    background-color: #FDF5E0;
+    text-align: center;
+
+    .wrap{
+        display: flex;
+        justify-content: center;
+        max-width: 1170px;
+        width: calc(100% - 40px);
+        margin: 0 auto;
+
+        .box{
+            width: 360px;
+
+            img{
+                width: 100%;
+            }
+
+            &__title{
+                margin: 8px 0;
+                color: #EEBF5D;
+            }
+
+            &__detail{
+                font-size: 16px;
+                font-weight: normal;
+                color: #333;
+            }
+
+            &:not(:last-child){
+                margin-right: 30px;
+            }
+        }
+
+    }
+
+    .white-bg-container{
+        margin: 40px auto;
+        padding: 30px 0;
+        max-width: 1170px;
+        background-color: #fff;
+        border: #EBB94D 2px solid;
+        border-radius: 3px;
+        text-align: center;
+    }
+}
