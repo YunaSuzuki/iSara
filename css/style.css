@@ -400,6 +400,39 @@ ul {
   .bangkok p:not(:first-child) {
     margin-top: 30px; }
 
+.benefits {
+  padding: 60px 0 0;
+  background-color: #F7C23B;
+  text-align: center; }
+  .benefits p {
+    margin-bottom: 40px;
+    font-weight: 600; }
+    .benefits p span {
+      color: #fff; }
+  .benefits__text {
+    position: relative;
+    z-index: 10;
+    width: 45%;
+    margin: 0 auto;
+    background-color: #F7C23B; }
+  .benefits .benefits-container {
+    position: relative;
+    top: -70px;
+    padding: 60px;
+    border: 2px solid #fff; }
+  .benefits .benefits-box {
+    padding: 50px 15px;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 50%; }
+    .benefits .benefits-box:not(:last-child) {
+      margin-right: 100px; }
+  .benefits__title {
+    display: block;
+    margin-bottom: 15px;
+    color: #F7C23B; }
+
 .wrap {
   display: flex;
   justify-content: center;
