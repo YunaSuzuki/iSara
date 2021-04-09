@@ -231,6 +231,125 @@
     }
 }
 
+.q-and-a{
+    padding: 0 0 40px;
+
+    &--q{
+        position: relative;
+        padding: 50px 0;
+        background-color: #EBB94D;
+        color: #fff;
+
+        &:after{
+            content: "";
+            display: block;
+            height: 80px;
+            width: 80px;
+            background-color: #EBB94D;
+            position: absolute;
+            bottom: -40px;
+            left: 50%;
+            transform: rotate(45deg) translateX(-50%);
+
+        }
+
+        .top-circle{
+            position: relative;
+            margin-top: 30px;
+            height: 40px;
+
+            span{
+                position: absolute;
+                top: -20px;
+                left: 50%;
+                transform: translateX(-50%);
+                display: inline-block;
+                width: 80px;
+                height: 80px;
+                background-color: #fff;
+                color: #EBB94D;
+                border-radius: 50%;
+                line-height: 80px;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 14px;
+            }
+        }
+        
+        p{
+            color: #fff;
+        }
+
+    }
+
+    .section__title{
+        margin-bottom: 0;
+
+        &:before{
+            border-left: #fff solid 4px;
+            border-top: #fff solid 4px;
+        }
+        
+        &:after{
+            border-right: #fff solid 4px;
+            border-bottom: #fff solid 4px;
+        }
+        
+    }
+
+    &--a{
+        & > p:first-child{
+            margin-top: 40px;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        p:last-child{
+            margin: 30px 0
+        }
+
+        .voice{
+            display: flex;
+            width: 60%;
+            margin: 30px auto;
+
+            img{
+                margin-right: 15px;
+                max-width: 240px;
+                width: 30%;
+                outline: solid 3px orange;
+            }
+
+            p{
+                &:last-child{
+                    margin: 0;
+                    text-decoration: underline;
+                }
+            }
+
+            &__detail{
+                margin: 0 0 0 15px;
+                padding-top: 10px;
+                color: #777;
+                
+            }
+
+            &__message{
+                transform: skewX(-5deg);
+                font-size: 18px;
+                text-align: left;
+            }
+
+            &__name{
+                font-size: 15px;
+                text-align: left;
+            }
+        }
+    }
+}
+
 .wrap{
     display: flex;
     justify-content: center;
