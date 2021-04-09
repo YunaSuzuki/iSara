@@ -486,6 +486,31 @@
     text-align: center;
 }
 
+//なぜバンコクなのか？
+.bangkok{
+    padding: 100px 0 100px 100px;
+    background-image: url("../img/bangkokbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+    &__list{
+        margin-top: 20px;
+        font-size: 16px;
+
+        li{
+            margin-bottom: 10px;
+        }
+    }
+
+    p{
+        &:not(:first-child){
+            margin-top: 30px;
+        }
+    }
+}
+
 .wrap{
     display: flex;
     justify-content: center;
