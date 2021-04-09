@@ -178,25 +178,6 @@ ul {
   padding: 40px 0;
   background-color: #FDF5E0;
   text-align: center; }
-  .merit .wrap {
-    display: flex;
-    justify-content: center;
-    max-width: 1170px;
-    width: calc(100% - 40px);
-    margin: 0 auto; }
-    .merit .wrap .box {
-      width: 360px; }
-      .merit .wrap .box img {
-        width: 100%; }
-      .merit .wrap .box__title {
-        margin: 8px 0;
-        color: #EEBF5D; }
-      .merit .wrap .box__detail {
-        font-size: 16px;
-        font-weight: normal;
-        color: #333; }
-      .merit .wrap .box:not(:last-child) {
-        margin-right: 30px; }
   .merit .white-bg-container {
     margin: 40px auto;
     padding: 30px 0;
@@ -205,6 +186,55 @@ ul {
     border: #EBB94D 2px solid;
     border-radius: 3px;
     text-align: center; }
+
+.member {
+  padding: 60px 0 30px;
+  background-image: url(../img/teacherbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center; }
+  .member__img {
+    position: relative;
+    bottom: -35px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%; }
+    .member__img--1 {
+      background-image: url("../img/keisuke_someya.jpg"); }
+    .member__img--2 {
+      background-image: url("../img/yuki.png"); }
+    .member__img--3 {
+      background-image: url("../img/manabu.png"); }
+  .member .detail {
+    min-height: 391px;
+    padding: 40px;
+    border: #fff 3px solid;
+    font-size: 16px; }
+    .member .detail__description {
+      text-align: left; }
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  max-width: 1170px;
+  width: calc(100% - 40px);
+  margin: 0 auto; }
+  .wrap .box {
+    width: 360px; }
+    .wrap .box img {
+      width: 100%; }
+    .wrap .box__title {
+      margin: 8px 0;
+      color: #EEBF5D; }
+    .wrap .box__detail {
+      font-size: 16px;
+      font-weight: normal;
+      color: #333; }
+    .wrap .box:not(:last-child) {
+      margin-right: 30px; }
 
 .introduction {
   height: 590px;
