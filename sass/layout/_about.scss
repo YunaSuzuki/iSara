@@ -391,6 +391,94 @@
     
 }
 
+//受講の流れ
+.flow{
+    padding: 50px 0 40px;
+    text-align: center;
+    
+    &__img{
+        margin: 30px 0;
+    }
+
+    &__box{
+        padding: 30px 40px;
+        background-color: #FDF5E0;
+
+        &:not(:first-child){
+            margin-top: 40px;
+        }
+
+        .left-box{
+            width: 20%;
+            padding: 10px;
+
+            img{
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+            span{
+                display: block;
+                font-size: 18px;
+            }
+        }
+
+        .right-box{
+            width: 80%;
+            text-align: left;
+
+            p{
+                margin: 20px 0;
+            }
+        }
+    }
+
+    .border{
+        position: relative;
+        width: 70%;
+        height: 40px;
+        margin: 0 auto;
+        border-bottom: solid 2px #F7C04A;
+    }
+
+    .left-up{
+        &:before{
+            content: "";
+            height: 40px;
+            border-left: solid 2px #F7C04A;
+            position: absolute;
+            left: 0;
+        }
+
+        &:after{
+            content: "";
+            height: 40px;
+            border-right: solid 2px #F7C04A;
+            position: absolute;
+            right: 0;
+            bottom: -40px;
+        }
+    }
+    
+    .right-up{
+        &:before{
+            content: "";
+            height: 40px;
+            border-right: solid 2px #F7C04A;
+            position: absolute;
+            right: 0;
+        }
+
+        &:after{
+            content: "";
+            height: 40px;
+            border-left: solid 2px #F7C04A;
+            position: absolute;
+            left: 0;
+            bottom: -40px;
+        }
+    }
+}
+
 .blue-bg{
     padding: 40px 0 30px;
     background-color: #036EA7;

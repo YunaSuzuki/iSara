@@ -23,7 +23,8 @@ body {
   margin: 0;
   padding: 0;
   letter-spacing: 1.5;
-  line-height: 1.6; }
+  line-height: 1.6;
+  color: #333; }
 
 p {
   margin: 0 0 10px;
@@ -320,6 +321,63 @@ ul {
         font-size: 16px;
         font-weight: bold;
         border: 1px dotted #e5e5e5; }
+
+.flow {
+  padding: 50px 0 40px;
+  text-align: center; }
+  .flow__img {
+    margin: 30px 0; }
+  .flow__box {
+    padding: 30px 40px;
+    background-color: #FDF5E0; }
+    .flow__box:not(:first-child) {
+      margin-top: 40px; }
+    .flow__box .left-box {
+      width: 20%;
+      padding: 10px; }
+      .flow__box .left-box img {
+        display: inline-block;
+        margin-bottom: 20px; }
+      .flow__box .left-box span {
+        display: block;
+        font-size: 18px; }
+    .flow__box .right-box {
+      width: 80%;
+      text-align: left; }
+      .flow__box .right-box p {
+        margin: 20px 0; }
+  .flow .border {
+    position: relative;
+    width: 70%;
+    height: 40px;
+    margin: 0 auto;
+    border-bottom: solid 2px #F7C04A; }
+  .flow .left-up:before {
+    content: "";
+    height: 40px;
+    border-left: solid 2px #F7C04A;
+    position: absolute;
+    left: 0; }
+  .flow .left-up:after {
+    content: "";
+    height: 40px;
+    border-right: solid 2px #F7C04A;
+    position: absolute;
+    right: 0;
+    bottom: -40px; }
+  .flow .right-up:before {
+    content: "";
+    height: 40px;
+    border-right: solid 2px #F7C04A;
+    position: absolute;
+    right: 0; }
+  .flow .right-up:after {
+    content: "";
+    height: 40px;
+    border-left: solid 2px #F7C04A;
+    position: absolute;
+    left: 0;
+    bottom: -40px; }
 
 .blue-bg {
   padding: 40px 0 30px;
