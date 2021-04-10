@@ -7,6 +7,7 @@ body{
     padding: 0;
     letter-spacing: 1.5;
     line-height: 1.6;
+    color: #333;
 }
 
 p{
@@ -17,6 +18,7 @@ p{
 ul{
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .btn-group-vertical>.btn-group:after, .btn-toolbar:after, .clearfix:after, .container-fluid:after, .container:after, .dl-horizontal dd:after, .form-horizontal .form-group:after, .modal-footer:after, .modal-header:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
