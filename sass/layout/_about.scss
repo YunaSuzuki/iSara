@@ -561,6 +561,32 @@
     }
 }
 
+//月１０万円稼げるエンジニアを輩出し続ける
+.purpose{
+    padding: 60px 0;
+    text-align: center;
+    background-image: url('../img/specialdetail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    p{
+        color: #fff;
+    }
+
+    p.section__title{
+        &:before{
+            border-left: #fff solid 4px;
+            border-top: #fff solid 4px;
+        }
+
+        &:after {
+            border-right: #fff solid 4px;
+            border-bottom: #fff solid 4px;
+        }
+    }
+}
+
 .wrap{
     display: flex;
     justify-content: center;
